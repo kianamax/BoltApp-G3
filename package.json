@@ -1,0 +1,22 @@
+{
+  "name": "boltapp-g3",
+  "version": "1.0.0",
+  "description": "'group project'",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ISTG3/BoltApp-G3.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ISTG3/BoltApp-G3/issues"
+  },
+  "homepage": "https://github.com/ISTG3/BoltApp-G3#readme",
+  "dependencies": {
+    "d3": "^7.1.1"
+  }
+}
