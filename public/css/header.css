@@ -1,0 +1,8 @@
+.header {
+    background-color: green;
+    /* position: fixed; Keep the header from ever moving when scrolling*/
+}
+
+nav {
+    display: inline;
+}
