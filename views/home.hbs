@@ -6,41 +6,68 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/home.css">
-    <link rel="stylesheet" href="css/footer.css">
-    <link rel="stylesheet" href="css/content.css">
-    <link rel="stylesheet" href="css/header.css">
-    <title>Document</title>
+    <title>Home Page</title>
 </head>
-
+<!-- body including the navbar or header-->
 <body>
-    <div class='wrapper'>
-        <div class='header'>
-            {{>header}}
+    <!-- WEBPAGE STARTS HERE-->
+        <nav>
+            <div class="hero">
+                <div class="navbar">
+           <p class="logo">BoltApp</p>
+            <ul>
+                <li> <a href="#section1">Home</a> </li>
+                <li> <a href="#section2">About</a> </li>
+                <li> <a href="#section3">Portifolio</a> </li>
+                <li> <a href="#section4">Contact</a> </li>
+            </ul>
+           </div>
         </div>
-
-        {{!TODO-- Content will be replaced by some graphs on the runs and the median stuff --}}
-        {{!-- <div>
-            {{graph}}
-        </div> --}}
-        <div class='content' id='content'>
-            
-            {{>content}}
+        </nav>
+    <!--HOME-->
+   <div id="section1" class="">
+        <div class="banner">
+            <div class="left-column">
+               <!-- <div class="search-box">
+                    <img src="img/search.png" alt="">
+                    <input type="text">
+                </div>-->
+            <h1>Bolt<span>App</span></h1>
+            <P>Running is a thing worth doing not because of the future rewards it bestows, but because of how it feeds our bodies and minds and souls in the present. </P>
+            <div class="btn">
+                <button type="button" class="primary-btn" >Learn More </button>
+                <button type="button" >Register </button> 
+            </div>
+            <div class="social-icons">
+                <img src="img/twitter.png" alt="">
+                <img src="img/instagram.png" alt="">
+                <img src="img/pinterest.png" alt="">
+                <img src="img/facebook.png" alt="">
+            </div>
+            </div>
+            <div class="right-column">
+                <img src="img/runner.jpg" alt="">
+            </div>
         </div>
-        {{!TODO:-- We will add form to get details about runs...someone can work on this on --}}
-        {{!-- <div>
-            {{>run_form}}
-        </div> --}}
-
-        <div class='footer' id='footer'>
-            {{>footer}}
-        </div>
-
-
+    </div> 
+    <!--ABOUT-->
+   <div id="section2" class="">
 
     </div>
+   
+    <!--PORTIFOLIO-->
+  < <div id="section3" class="">
 
-
-
+    </div> 
+    
+    <!--CONTACT-->
+<div id="section4" class="">
+    <h1>Contact</h1>
+            <form action="">
+                
+            </form>
+</div>
+   
 </body>
 
 </html>
